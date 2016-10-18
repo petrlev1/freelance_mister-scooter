@@ -10197,9 +10197,12 @@ td .price, .price b {
     padding-bottom: 0
 }
 
-.fa {
-    line-height: inherit
+.fa { color: #fff;
+    line-height: inherit;
+    transition: 0.3s all ease;
 }
+
+.fa:hover {color:#d33534}
 
 .container > .alert, .breadcrumb + .alert {
     z-index: 9999999
@@ -10251,6 +10254,7 @@ td .price, .price b {
 }
 
 .header {
+    color: #fff;
     background: #000;
     text-align: center;
     padding-top: 16px
@@ -10896,7 +10900,7 @@ td .price, .price b {
 }
 
 .search button:before, .search button:focus:before, .search button:active:before {
-    content: "ï€‚"
+    content: ""
 }
 
 .search button:hover, .search button:focus:hover, .search button:active:hover {
