@@ -10182,7 +10182,7 @@ img {
 legend {
     font-size: 18px;
     padding: 7px 0;
-    color: #fff
+    color: #000
 }
 
 label {
@@ -16762,8 +16762,8 @@ body.ind .copyright {
 }
 
 .designfilter {
-    background: #3e4857;
-    margin-top: 35px;
+    background: #fff;
+    margin-top: 0;
     padding: 15px
 }
 
@@ -16784,7 +16784,7 @@ body.ind .copyright {
 }
 
 .designfilter_main {
-    background: #3e4857;
+    background: #fff;
     padding: 15px;
     margin-top: -40px;
     margin-bottom: 45px
