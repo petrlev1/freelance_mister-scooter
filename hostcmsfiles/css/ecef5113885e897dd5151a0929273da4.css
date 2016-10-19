@@ -12258,7 +12258,7 @@ button.btn-primary + a.btn-danger {
 }
 
 .nav__primary .menu > li + li {
-    margin-left: 20px
+    margin-left: 1px
 }
 
 .nav__primary {
@@ -12273,23 +12273,25 @@ button.btn-primary + a.btn-danger {
 }
 
 .nav__primary .menu li {
-    position: relative
+    position: relative;
+    box-shadow: 0 -0.5px 1px rgba(0,0,0,0.4); }
 }
 
 .nav__primary .menu li.sfHover > a, .nav__primary .menu li > a:hover, .nav__primary .menu li > a.active {
     color: #fff; background-color: #d33534
 }
 
-.nav__primary .menu > li + li {
-    margin-left: 60px
-}
-
 .nav__primary .menu li > a {
     font-weight: 500;
-    font-size: 22px;
+    font-size: 16px;
     line-height: 22px;
     letter-spacing: 1px;
-    display: inline-block; padding: 20px 5px;
+    display: inline-block; padding: 20px 30px;
+}
+
+.nav__primary .menu li > a:hover {
+    color: #fff;
+    background-color: #e8504f
 }
 
 .nav__primary .menu ul {
@@ -12417,6 +12419,7 @@ button.btn-primary + a.btn-danger {
     margin-top: 53px;
     background-color: #fff;
     color: #000;
+    border-bottom: 1px #d9d9db solid;
 }
 
 @media only screen and (min-width: 991px) {
