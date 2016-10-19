@@ -2366,6 +2366,12 @@ pre code {
     padding-left: 15px
 }
 
+.product-layout {
+    padding-right: 0;
+    padding-left: 0
+}
+
+
 .col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9 {
     float: left
 }
@@ -11144,8 +11150,16 @@ td .price, .price b {
 }
 
 .product-layout-bar {
-    font-size: 0
+    font-size: 0;
+	position: relative;
+    right: 0;
+    left: 0;
+    margin: auto;
+	width: 100%;
 }
+
+.product-layout-bar .col-lg-3 {  box-shadow: 0 0 1px rgba(0,0,0,0.4); }
+.product-layout-bar .col-lg-4 {  box-shadow: 0 0 1px rgba(0,0,0,0.4); }
 
 .product-layout-bar-main {
     font-size: 0
@@ -11154,8 +11168,8 @@ td .price, .price b {
 .product-layout {
     float: none;
     display: inline-block;
-    margin-top: 35px;
-    margin-bottom: 9px;
+    margin-top: 0;
+    margin-bottom: 0;
     vertical-align: top
 }
 
@@ -11269,8 +11283,14 @@ td .price, .price b {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    background: #3f4552;
-    padding-bottom: 10px
+    background: #fff;
+    padding-bottom: 10px;
+    transition: all 0.3s ease;
+    
+}
+
+.product-thumb:hover {
+    box-shadow: 0px 3px 13px rgba(0,0,0,0.43); z-index: 1;
 }
 
 .product-thumb .caption {
